@@ -1,0 +1,62 @@
+.home-section{
+    max-width: 1440px;
+    margin: 2rem auto;
+}
+.home-heading{
+    font-size: 32px;
+}
+.home-para{
+    margin-top: 1rem;
+    font-size: 18px;
+    color:var(--color2)
+}
+.home-search{
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-label{
+    margin-right: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color1);
+    border-bottom: 1px solid var(--color1);
+    line-height: 2.5rem;
+}
+.home-input{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 25px;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 18px;
+    border: 1px dotted var(--color2);
+}
+.home-input::placeholder{
+    color: var(--color2);
+}
+.home-results{
+    font-weight: normal;
+    color: var(--color2);
+    font-size: 18px;
+}
+.searchtext{
+    color: black;
+    font-weight: bold;
+}
+.search-results{
+    color: black;
+    font-size: 18px;
+    margin-top:1rem;
+}
+.home-loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-card{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+}

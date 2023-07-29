@@ -1,0 +1,52 @@
+.footer{
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% ); */
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+    color: black;
+    font-size: 20px;
+    display: flex;
+    border-top: 1px solid rgb(165,165,165);
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-logo{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.social-links{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.social-links a{
+    display: flex;
+    padding: 0.2rem;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.don{
+  margin-left: 0.5rem; 
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.donate a{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.fb-icon:hover , .twitter-icon:hover{
+   
+    color: #405DE6
+}
+.yt-icon:hover{
+    color: red;
+}
+.insta-icon:hover{
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}

@@ -1,0 +1,79 @@
+.card{
+    border-radius: 0.75rem;
+    position:relative;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+   height: auto;
+   object-fit: cover;
+   border-radius: 0.75rem;
+}
+.card-data{
+    display: flex;
+    flex-direction: column;
+    max-height:94.5%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:0.5rem; 
+    padding: 1rem; 
+    border-radius: 10px;
+    background-color: #10131f;
+}
+.card-prompt{
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    overflow-y: auto; 
+}
+.card-userinfo{
+    margin-top: 1.25rem; 
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    justify-content: space-between;
+}
+.card-userdata{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card-userAvatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: bold;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    object-fit: cover; 
+    background-color: #047857; 
+}
+.card-userName{
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+.card-btn{
+    outline: 0; 
+    background-color: transparent;
+    border: none; 
+}
+.card-downpic{
+    width: 1.5rem; 
+    height: 1.5rem;
+    object-fit: contain; 
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.card:hover{
+    cursor: pointer;
+}

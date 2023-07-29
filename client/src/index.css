@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --color1:#8E54E9;
+  --color2:#666e75;
+  --color3:#f9fafe;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+.button {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.button1 {
+  background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+  padding: 0.8rem 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.button1:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,106 @@
+.create-container {
+  display: flex;
+  max-width: 1440px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  box-shadow: 10px 20px 30px gray;
+  border-radius: 15px;
+  background-color: var(--color3);
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.create {
+  border-bottom: 1px dotted #666e75;
+}
+.create-header {
+  font-weight: bold;
+  font-size: 32px;
+}
+.create-para {
+  color: #666e75;
+  max-width: 720px;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+.create-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.gen-image {
+  display: flex;
+  max-width: 250px;
+  border: 1px dotted black;
+  border-radius: 5px;
+  background-size: cover;
+}
+.gen-loader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: -250px;
+  min-width: 249px;
+  border-radius: 5px;
+  backdrop-filter: blur(3px);
+}
+#gen-btn {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  border: none;
+}
+#share-btn {
+  width: 100%;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+  border: none;
+}
+.form-input {
+  /* min-width: 720px; */
+  width: 100%;
+  font-size: 16px;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+  background-color: #ececf1;
+  border-radius: 5px;
+  border: 0.5px solid transparent;
+  color: gray;
+  line-height: 30px;
+  padding: 5px;
+}
+.form-input:focus {
+  border: 0.5px solid rgb(166, 166, 166);
+}
+.surprise-btn {
+  margin-left: 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  padding: 0 5px;
+  background-color: #ececf1;
+  cursor: pointer;
+}
+.share-container {
+  align-items: flex-end;
+}
+.pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  
+  width: 50%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  background-image: url(../assets/createBG.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px gray;
+}

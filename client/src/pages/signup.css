@@ -1,0 +1,67 @@
+.signup-container {
+  background-color: white;
+  display: flex;
+  max-width: 1440px;
+  min-height: 80vh;
+margin: 2rem auto;
+background-color: var(--color3);
+border-radius: 20px;
+box-shadow: 10px 20px 30px gray;
+}
+.signup-image {
+  min-width: 480px;
+  background-image: url(../assets/signupBG.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin: 4rem;
+  width: 100%;
+}
+.signup-heading {
+  font-weight: bold;
+  line-height: 3rem;
+}
+.signup-para {
+  line-height: 3rem;
+  color: var(--color2);
+}
+.login-redirect {
+  color: rgb(19, 163, 252);
+}
+.signup-main-form {
+  display: flex;
+  flex-direction: column;
+}
+.signup-f{
+    margin-top: 2rem;
+}
+.signup-input {
+    min-width: auto;
+    font-size: 16px;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+    background-color: #ececf1;
+    border-radius: 5px;
+    border: 0.5px solid transparent;
+    color: gray;
+    line-height: 30px;
+    padding: 5px;
+}
+.signup-checkbox{
+  display: flex;
+  gap: 10px;
+}
+.checkbox-input{
+  width: 20px;
+  cursor: pointer;
+}
+#login-signup-btn{
+    margin-top: 1rem;
+    align-self: flex-start;
+    font-size: 16px;
+}
